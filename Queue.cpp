@@ -60,9 +60,9 @@ void Queue::remove()
     delete pTemp;
 }
 
-void Queue::copyQueue(const Queue &rK)
+void Queue::copyQueue(const Queue &rQ)
 {
-    Node *pCurrent = rK.pHead;
+    Node *pCurrent = rQ.pHead;
 
     while (pCurrent != nullptr)
     {
